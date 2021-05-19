@@ -1,8 +1,7 @@
 <?php
 
-require('../file_start.php');
-require('../connect.php');
-nav('reviews');
+require('../functions.php');
+
+init('Les avis', 'reviews');
 
 require('../file_end.php');
-?>

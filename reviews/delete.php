@@ -1,6 +1,7 @@
 <?php
-require('../file_start.php');
-require('../connect.php');
+require('../functions.php');
+
+init('Supprimer un avis');
 
 if (!isset($_GET['id']) OR $_GET['id'] == NULL) {
 	error('list.php', 'Erreur');

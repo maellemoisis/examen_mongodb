@@ -1,21 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" type="text/css" href="../style.css">
-    <title>Titre</title>
-</head>
-
-<body>
-
-
 <?php
-require('../connect.php');
-nav();
-?>
+require('../functions.php');
 
+init('Etablissements', 'etablissements');
 
-
-</body>
-</html>
-
+require('../file_end.php');

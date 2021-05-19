@@ -1,7 +1,7 @@
 <?php
-require('../file_start.php');
+require('../functions.php');
 
-require('../connect.php');
+init('Supprimer un établissement');
 
 if (!isset($_GET['id']) OR $_GET['id'] == NULL) {
 	error('list.php', 'Erreur');

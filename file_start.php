@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" type="text/css" href="../style.css">
-    <title>Examen MongoDB</title>
+    <title>MongoDB - <?php echo $title; ?></title>
 </head>
 
 <body>

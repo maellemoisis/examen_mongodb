@@ -1,7 +1,9 @@
 <?php
-require('../file_start.php');
+require('../functions.php');
 
-require('../connect.php');
+init('Supprimer un avis');
+
+require('../file_end.php');
 
 if (!isset($_POST['note']) OR $_POST['note'] == NULL) {
 	error('add.php', 'Veuillez spécifier une note');

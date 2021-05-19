@@ -1,26 +1,33 @@
 <?php
-require('../file_start.php');
+require('../functions.php');
 
-require('../connect.php');
+init('Ajouter un établissement');
+
+require('../file_end.php');
 
 if (!isset($_POST['name']) or $_POST['name'] == NULL) {
     error('add.php', 'Veuillez spécifier un nom');
+    die();
 }
 
 if (!isset($_POST['adresse']) or $_POST['adresse'] == NULL) {
     error('add.php', 'Veuillez spécifier une adresse');
+    die();
 }
 
 if (!isset($_POST['ville']) or $_POST['ville'] == NULL) {
     error('add.php', 'Veuillez spécifier une ville');
+    die();
 }
 
 if (!isset($_POST['pays']) or $_POST['pays'] == NULL) {
     error('add.php', 'Veuillez spécifier un pays');
+    die();
 }
 
 if (!isset($_POST['telephone']) or $_POST['telephone'] == NULL) {
     error('add.php', 'Veuillez spécifier un telephone');
+    die();
 }
 
 $iEtablissement = array(

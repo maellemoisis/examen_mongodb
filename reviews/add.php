@@ -1,16 +1,16 @@
 <?php
-require('../file_start.php');
-require('../connect.php');
-nav('reviews');
-?>
+require('../functions.php');
 
+init('Ajouter un avis', 'reviews');
+
+echo '
 <div class="add">
 	<h1>Ajouter un avis</h1>
 	<form method="post" action="traitement_add.php">
 		<label>
 			Note
 		</label>
-		<input type="text" name="note" /> <br />
+		<input type="number" name="note" /> <br />
 		<label>
 			Avis
 		</label>
@@ -22,13 +22,12 @@ nav('reviews');
 		<label>
 			Date
 		</label>
-		<input type="text" name="date" /> <br />
+		<input type="date" name="date" /> <br />
 		<br />
 
 		<input type="submit" value="Ajouter" />
 
 	</form>
-</div>
-<?php
+</div>';
+
 require('../file_end.php');
-?>

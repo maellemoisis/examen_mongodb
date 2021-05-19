@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9533b55c-3b52-4c6d-ac84-7f7147b9a2b5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/connect.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file_start.php" beforeDir="false" afterPath="$PROJECT_DIR$/file_start.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/places/add.php" beforeDir="false" afterPath="$PROJECT_DIR$/places/add.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/places/delete.php" beforeDir="false" afterPath="$PROJECT_DIR$/places/delete.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/places/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/places/edit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/places/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/places/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/places/list.php" beforeDir="false" afterPath="$PROJECT_DIR$/places/list.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/places/traitement_add.php" beforeDir="false" afterPath="$PROJECT_DIR$/places/traitement_add.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/places/traitement_edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/places/traitement_edit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reviews/add.php" beforeDir="false" afterPath="$PROJECT_DIR$/reviews/add.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reviews/delete.php" beforeDir="false" afterPath="$PROJECT_DIR$/reviews/delete.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reviews/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/reviews/edit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reviews/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/reviews/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reviews/list.php" beforeDir="false" afterPath="$PROJECT_DIR$/reviews/list.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reviews/traitement_add.php" beforeDir="false" afterPath="$PROJECT_DIR$/reviews/traitement_add.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reviews/traitement_edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/reviews/traitement_edit.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1sk9RLGV5VdliHfOAf7GX7JHheZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9533b55c-3b52-4c6d-ac84-7f7147b9a2b5" name="Default Changelist" comment="" />
+      <created>1621405710172</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1621405710172</updated>
+      <workItem from="1621405711312" duration="2765000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

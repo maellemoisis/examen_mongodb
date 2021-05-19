@@ -1,7 +1,9 @@
 <?php
-require('../file_start.php');
+require('../functions.php');
 
-require('../connect.php');
+init('Editer un établissement');
+
+require('../file_end.php');
 
 if (!isset($_POST['name']) or $_POST['name'] == NULL) {
     error('add.php', 'Veuillez spécifier un nom');

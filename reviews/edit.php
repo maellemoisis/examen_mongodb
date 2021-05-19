@@ -1,6 +1,7 @@
 <?php
-require('../file_start.php');
-require('../connect.php');
+require('../functions.php');
+
+init('Éditer un avis', 'reviews');
 
 if (!isset($_GET['id']) OR $_GET['id'] == NULL) {
 	error('list.php', 'Erreur');
@@ -14,40 +15,35 @@ if(!$result){
 
 $rs = $result->toArray()[0];
 
-nav('reviews');
-?>
+echo '
+    <div>
+        <h1>Éditer l\'avis</h1>
+        <form method="post" action="traitement_edit.php">
+            <label>
+                Note
+            </label>
+            <input type="number" name="note" value="'.$rs->Note.'"/> <br />
+            <label>
+                Avis
+            </label>
+            <input type="text" name="avis" value="'.$rs->Avis.'"/> <br />
+            <label>
+                Auteur
+            </label>
+            <input type="text" name="auteur" value="'.$rs->Auteur.'"/> <br />
+            <label>
+                Date
+            </label>
+            <input type="date" name="date" value="'.$rs->Date.'"/> <br />
 
-<div>
-	<h1>Editer l'avis</h1>
-	<form method="post" action="traitement_edit.php">
-		<label>
-			Note
-		</label>
-		<input type="text" name="note" value="<?php echo $rs->Note; ?>"/> <br />
-		<label>
-			Avis
-		</label>
-		<input type="text" name="avis" value="<?php echo $rs->Avis; ?>"/> <br />
-		<label>
-			Auteur
-		</label>
-		<input type="text" name="auteur" value="<?php echo $rs->Auteur; ?>"/> <br />
-		<label>
-			Date
-		</label>
-		<input type="text" name="date" value="<?php echo $rs->Date; ?>"/> <br />
+            <br />
 
-		<br />
+            <input type="hidden" name="id" value="'.$_GET['id'].'" />
 
-		<input type="hidden" name="id" value="<?php echo $_GET['id']; ?>" />
+            <input type="submit" value="Enregistrer" />
 
-		<input type="submit" value="Enregistrer" />
+        </form>
 
-	</form>
+    </div>';
 
-</div>
-
-<?php
 require('../file_end.php');
-
-?>
