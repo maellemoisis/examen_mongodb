@@ -38,7 +38,7 @@ echo '
             <label>
                 Téléphone
             </label>
-            <input type="text" name="telephone" value="'.$rs->Telephone.'"/> <br/>
+            <input type="tel" name="telephone" value="'.$rs->Telephone.'"/> <br/>
     
             <br/>
     

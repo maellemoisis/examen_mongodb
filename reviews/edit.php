@@ -26,7 +26,7 @@ echo '
             <label>
                 Avis
             </label>
-            <input type="text" name="avis" value="'.$rs->Avis.'"/> <br />
+            <textarea name="avis">'.$rs->Avis.'</textarea> <br />
             <label>
                 Auteur
             </label>

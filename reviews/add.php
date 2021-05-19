@@ -14,7 +14,7 @@ echo '
 		<label>
 			Avis
 		</label>
-		<input type="text" name="avis" /> <br />
+		<textarea name="avis"></textarea> <br />
 		<label>
 			Auteur
 		</label>
