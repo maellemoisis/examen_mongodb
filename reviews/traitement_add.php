@@ -3,8 +3,6 @@ require('../functions.php');
 
 init('Ajouter un avis');
 
-require('../file_end.php');
-
 if (!isset($_POST['note']) OR $_POST['note'] == NULL) {
 	error('add.php', 'Veuillez spécifier une note');
 	die();

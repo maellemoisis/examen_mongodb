@@ -3,22 +3,24 @@ require('../functions.php');
 
 init('Supprimer un avis');
 
-require('../file_end.php');
-
 if (!isset($_POST['note']) OR $_POST['note'] == NULL) {
 	error('add.php', 'Veuillez spécifier une note');
+	die();
 }
 
 if (!isset($_POST['avis']) OR $_POST['avis'] == NULL) {
 	error('add.php', 'Veuillez spécifier un avis');
+	die();
 }
 
 if (!isset($_POST['auteur']) OR $_POST['auteur'] == NULL) {
 	error('add.php', 'Veuillez spécifier un auteur');
+	die();
 }
 
 if (!isset($_POST['date']) OR $_POST['date'] == NULL) {
 	error('add.php', 'Veuillez spécifier une date');
+	die();
 }
 
 $iAvis = array(
