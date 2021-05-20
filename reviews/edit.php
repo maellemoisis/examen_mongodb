@@ -22,7 +22,7 @@ echo '
             <label>
                 Note
             </label>
-            <input type="number" name="note" value="'.$rs->Note.'"/> <br />
+            <input type="number" name="note" max="5" min="1" value="'.$rs->Note.'"/> /5 <br />
             <label>
                 Avis
             </label>

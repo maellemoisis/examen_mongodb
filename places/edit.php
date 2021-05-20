@@ -20,7 +20,7 @@ echo '
         <h1>Éditer l\'établissement</h1>
         <form method="post" action="traitement_edit.php">
             <label>
-                Nom de l\'établissement
+                Nom
             </label>
             <input type="text" name="name" value="'.$rs->Nom.'"/> <br/>
             <label>

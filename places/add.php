@@ -8,7 +8,7 @@ echo '
         <h1>Ajouter un établissement</h1>
         <form method="post" action="traitement_add.php">
             <label>
-                Nom de l\'établissement
+                Nom
             </label>
             <input type="text" name="name" /> <br />
             <label>

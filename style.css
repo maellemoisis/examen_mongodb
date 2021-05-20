@@ -52,15 +52,32 @@ form {
 
 form label {
     display: inline-block;
-    width: 200px;
+    width: 150px;
     margin-bottom: 20px;
 }
+
+input {
+    width:200px;
+}
+
+textarea {
+    max-width: 200px;
+
+    width: 200px;
+    height: 75px;
+}
+
 
 input[type='submit'] {
     background-color: #8e3eff;
     border: none;
     color: white;
     padding: 5px 20px;
+    width:100px !important;
+}
+
+input[type='number'] {
+    width:50px;
 }
 
 table th {

@@ -10,7 +10,7 @@ echo '
 		<label>
 			Note
 		</label>
-		<input type="number" name="note" /> <br />
+		<input type="number" name="note" max="5" min="0"/> /5 <br />
 		<label>
 			Avis
 		</label>
